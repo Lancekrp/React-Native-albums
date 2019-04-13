@@ -9,10 +9,12 @@
 // AppRegistry.registerComponent(appName, () => App);
 
 import React from 'react';
-import ReactNAtive from 'react-native';
+import ReactNative from 'react-native';
 
 const App = () => {
   return (
     <Text>Some text</Text>
   );
 };
+
+ReactNative.AppRegistry.registerComponent('albums', () => App);
